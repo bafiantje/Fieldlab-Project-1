@@ -45,3 +45,21 @@ themeToggleBtn.addEventListener('click', function () {
         }
     }
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to close the navigation if screen size is larger than 1024px
+    function closeNavigationOnLargeScreens() {
+        if (window.innerWidth >= 1024) {
+            const closeButton = document.querySelector('[data-drawer-hide="drawer-navigation"]');
+            if (closeButton) {
+                closeButton.click();
+            }
+        }
+    }
+
+    // Initial check on page load
+    closeNavigationOnLargeScreens();
+
+    // Event listener for window resize
+    window.addEventListener('resize', closeNavigationOnLargeScreens);
+});
