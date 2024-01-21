@@ -1,1 +1,1 @@
-Test..
+Welkom bij het StayNetherlands! In dit project heeft ons team zich toegelegd op het creëren van een dynamische en gebruiksvriendelijke frontend die naadloos integreert met de recent ontwikkelde backend API van een backend team. Het middelpunt van onze inspanningen is de creatie van een geavanceerd kalendercomponent, ontworpen om alle relevante gegevens op elegante wijze weer te geven. Naast de kalender hebben we essentiële pagina's geïmplementeerd voor efficiënt beheer van accommodaties en boekingen.
